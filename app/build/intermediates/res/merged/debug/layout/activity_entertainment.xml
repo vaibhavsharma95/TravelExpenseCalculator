@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaibhav.Pocket_Expenses.Entertainment">
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="63dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="33dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="63dp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_constraintTop_creator="1"
+        app:layout_constraintTop_toBottomOf="@+id/editText12"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/editText12" />
+
+    <TextView
+        android:id="@+id/startDateDisplay"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:text="TextView"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="@+id/startPickDate"
+        app:layout_constraintRight_toRightOf="@+id/endDateDisplay"
+        android:layout_marginTop="81dp"
+        app:layout_constraintTop_toBottomOf="@+id/editText13"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="79dp"
+        app:layout_constraintLeft_toLeftOf="@+id/endDateDisplay" />
+
+    <TextView
+        android:id="@+id/endDateDisplay"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:text="TextView"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/startPickDate"
+        app:layout_constraintTop_toBottomOf="@+id/startDateDisplay"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/startPickDate" />
+
+    <Button
+        android:id="@+id/startPickDate"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:text="Button"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/endPickDate"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/endPickDate"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="Button"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/startPickDate"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/startPickDate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="241dp" />
+
+</android.support.constraint.ConstraintLayout>

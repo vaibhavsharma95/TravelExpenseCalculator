@@ -1,0 +1,180 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:8:5-55:19
+MERGED from [com.android.support:design:23.4.0] C:\Users\Vaibhav\.android\build-cache\202e61f698caded4ffc035849d58c58ddb801770\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Vaibhav\.android\build-cache\61684ee4612bbf4087078f999d0dc57ddf4346c0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Vaibhav\.android\build-cache\52166a707b699ea4b3b32ea3ee23ec3256f23b01\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Vaibhav\.android\build-cache\78bfec8cf8c527c4726c50562110955162a16f00\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Vaibhav\.android\build-cache\86cd3759edfb95a2f2fcf86a87225a549ffea3a7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vaibhav\.android\build-cache\36ca0ffc06cb869f5267b90c9465dadc744d3dc7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:11:9-40
+	android:supportsRtl
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.vaibhav.Pocket_Expenses.Welcome
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:14:9-55
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:14:19-42
+activity#com.example.vaibhav.Pocket_Expenses.Splash_Screen
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:15:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.vaibhav.Pocket_Expenses.Menu
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:22:9-23:35
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:23:13-33
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:22:19-39
+activity#com.example.vaibhav.Pocket_Expenses.AddNewTrip
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:24:9-25:43
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:25:13-41
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:24:19-45
+activity#com.example.vaibhav.Pocket_Expenses.TripDetails
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:26:9-27:43
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:27:13-41
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:26:19-46
+activity#com.example.vaibhav.Pocket_Expenses.TripWise
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:28:9-46
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:28:19-43
+activity#com.example.vaibhav.Pocket_Expenses.ExpenseWise
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:29:9-49
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:29:19-46
+activity#com.example.vaibhav.Pocket_Expenses.DayWise
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:30:9-31:48
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:30:19-42
+activity#com.example.vaibhav.Pocket_Expenses.AddExpenses
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:32:9-33:43
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:33:13-41
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:32:19-46
+activity#com.example.vaibhav.Pocket_Expenses.BudgetDetails
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:34:9-35:45
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:34:19-48
+activity#com.example.vaibhav.Pocket_Expenses.DeleteUpdate
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:36:9-50
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:36:19-47
+activity#com.example.vaibhav.Pocket_Expenses.Update
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:37:9-38:45
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:38:13-43
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:37:19-41
+activity#com.example.vaibhav.Pocket_Expenses.Home
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:39:9-42
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:39:19-39
+activity#com.example.vaibhav.Pocket_Expenses.Personal
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:40:9-41:48
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:41:13-46
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:40:19-43
+activity#com.example.vaibhav.Pocket_Expenses.Food
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:42:9-42
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:42:19-39
+activity#com.example.vaibhav.Pocket_Expenses.Travel
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:43:9-44
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:43:19-41
+activity#com.example.vaibhav.Pocket_Expenses.Medical
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:44:9-45:48
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:45:13-46
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:44:19-42
+activity#com.example.vaibhav.Pocket_Expenses.Entertainment
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:46:9-51
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:46:19-48
+activity#com.example.vaibhav.Pocket_Expenses.Other
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:47:9-43
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:47:19-40
+activity#com.example.vaibhav.Pocket_Expenses.PersonalExpense
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:48:9-49:51
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:48:19-50
+activity#com.example.vaibhav.Pocket_Expenses.PersonalView
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:50:9-51:44
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:51:13-42
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:50:19-47
+activity#com.example.vaibhav.Pocket_Expenses.PersonalViewUpdate
+ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:52:9-53:47
+	android:label
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:53:13-45
+	android:name
+		ADDED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml:52:19-53
+uses-sdk
+INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:23.4.0] C:\Users\Vaibhav\.android\build-cache\202e61f698caded4ffc035849d58c58ddb801770\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\Vaibhav\.android\build-cache\a9839c07f16b363d8802752776b79c52519b7bd2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Vaibhav\.android\build-cache\61684ee4612bbf4087078f999d0dc57ddf4346c0\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Vaibhav\.android\build-cache\52166a707b699ea4b3b32ea3ee23ec3256f23b01\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Vaibhav\.android\build-cache\78bfec8cf8c527c4726c50562110955162a16f00\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Vaibhav\.android\build-cache\86cd3759edfb95a2f2fcf86a87225a549ffea3a7\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vaibhav\.android\build-cache\36ca0ffc06cb869f5267b90c9465dadc744d3dc7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Vaibhav\.android\build-cache\61684ee4612bbf4087078f999d0dc57ddf4346c0\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\src\main\AndroidManifest.xml

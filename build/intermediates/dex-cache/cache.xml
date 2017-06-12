@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vaibhav\.gradle\caches\modules-2\files-2.1\org.apache.poi\poi\3.14\fad7ae6d2e59c59ffdb45f1981500babfa765180\poi-3.14.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fad7ae6d2e59c59ffdb45f1981500babfa765180">
+        <dex dex="C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\build\intermediates\pre-dexed\debug\poi-3.14_7472e32401397161614d87bb76d0fb32e0d7e2f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vaibhav\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.3.2\90a3822c38ec8c996e84c16a3477ef632cbc87a3\commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="90a3822c38ec8c996e84c16a3477ef632cbc87a3">
+        <dex dex="C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\build\intermediates\pre-dexed\debug\commons-lang3-3.3.2_d9ebc7b2b394285b5d46a2d1d92368d615a53b04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\build\intermediates\pre-dexed\debug\commons-codec-1.10_77183437e43d03fbf04d48242f704eeda6368256.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vaibhav\.gradle\caches\modules-2\files-2.1\com.opencsv\opencsv\3.7\d5416b3a41618422e12337c2d3b6152f0cd4d311\opencsv-3.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5416b3a41618422e12337c2d3b6152f0cd4d311">
+        <dex dex="C:\Users\Vaibhav\AndroidStudioProjects\TravelExpenseCalculator\app\build\intermediates\pre-dexed\debug\opencsv-3.7_068cbf1b9d10bd51f32c4ed14cba7a35e4013504.jar" />
+    </item>
+
+</items>

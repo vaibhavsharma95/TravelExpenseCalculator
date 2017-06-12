@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaibhav.Pocket_Expenses"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pocket Expenses"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Welcome" >
+        </activity>
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Splash_Screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.Menu"
+            android:label="Menu" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.AddNewTrip"
+            android:label="Add New Trip" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.TripDetails"
+            android:label="Trip Details" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.TripWise" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.ExpenseWise" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.DayWise"
+            android:label="Day Wise Expenses" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.AddExpenses"
+            android:label="Add Expenses" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.BudgetDetails"
+            android:label="Budget Details" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.DeleteUpdate" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.Update"
+            android:label="Update Expense" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Home" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.Personal"
+            android:label="Personal Expenses" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Food" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Travel" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.Medical"
+            android:label="Personal Expenses" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Entertainment" />
+        <activity android:name="com.example.vaibhav.Pocket_Expenses.Other" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.PersonalExpense"
+            android:label="Expense Wise Details" />
+/>
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.PersonalView"
+            android:label="Personal View" />
+        <activity
+            android:name="com.example.vaibhav.Pocket_Expenses.PersonalViewUpdate"
+            android:label="Delete or Update" />
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "C:\\Users\\Vaibhav\\AndroidStudioProjects\\TravelExpenseCalculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "C:\\Users\\Vaibhav\\.android\\build-cache\\61684ee4612bbf4087078f999d0dc57ddf4346c0\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    }
+]

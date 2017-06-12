@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vaibhav.Pocket_Expenses">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Pocket Expenses"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome"> </activity>
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu"
+            android:label="Menu"/>
+        <activity android:name=".AddNewTrip"
+            android:label="Add New Trip"/>
+        <activity android:name=".TripDetails"
+            android:label="Trip Details"/>
+        <activity android:name=".TripWise" />
+        <activity android:name=".ExpenseWise" />
+        <activity android:name=".DayWise"
+            android:label="Day Wise Expenses"/>
+        <activity android:name=".AddExpenses"
+            android:label="Add Expenses"/>
+        <activity android:name=".BudgetDetails"
+            android:label="Budget Details"/>
+        <activity android:name=".DeleteUpdate" />
+        <activity android:name=".Update"
+            android:label="Update Expense"/>
+        <activity android:name=".Home" />
+        <activity android:name=".Personal"
+            android:label="Personal Expenses"/>
+        <activity android:name=".Food" />
+        <activity android:name=".Travel" />
+        <activity android:name=".Medical"
+            android:label="Personal Expenses"/>
+        <activity android:name=".Entertainment" />
+        <activity android:name=".Other" />
+        <activity android:name=".PersonalExpense"
+            android:label="Expense Wise Details"/>/>
+        <activity android:name=".PersonalView"
+            android:label="Personal View"/>
+        <activity android:name=".PersonalViewUpdate"
+            android:label="Delete or Update"/>
+
+    </application>
+
+</manifest>
